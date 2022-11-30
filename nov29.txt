@@ -1,0 +1,266 @@
+    1  git pull
+    2  git pull
+    3  git pull
+    4  git pull
+    5  git clone https://gitlab.com/sunbeam_ditiss/osa.git
+    6  git pull
+    7  git pull
+    8  ls
+    9  tree
+   10  ls -a
+   11  git pull
+   12  git pull
+   13  git clone https://gitlab.com/sunbeam_ditiss/osa.git
+   14  git config --global --list
+   15  git config --global --list
+   16  git config --global user.name "Samaikhya"
+   17  git config --global user.email "samaikhya.enumula74@gmail.com"
+   18  git config --global --list
+   19  cd ..
+   20  cd ..
+   21  cd /tmp
+   22  mkdir dittis
+   23  cd dittis
+   24  git config --global user.name "Samaikhya"
+   25  git config --global user.email "samaikhya.enumula74@gmail.com"
+   26  git config --global --list
+   27  ls -a
+   28  ls -la
+   29  git init
+   30  ls -la
+   31  ls -l
+   32  ls -l .git
+   33  git status
+   34  touch test.py
+   35  vim test.py
+   36  git status -s
+   37  git add test.py
+   38  git status -s
+   39  git commit -m 'first commit'
+   40  git status -s
+   41  git log
+   42  vim test.py
+   43  git status -s
+   44  git add test.py
+   45  git status -s
+   46  git commit -m 'second commit'
+   47  git log
+   48  vim test.py
+   49  git status -s
+   50  git diff
+   51  git log
+   52  git add test.py
+   53  git commit -m 'third commit'
+   54  git log
+   55  vim test2.py
+   56  vim test.py
+   57  git status -s
+   58  git add .
+   59  git status -s
+   60  git commit -m 'new test2'
+   61  git log
+   62  vim test2.py
+   63  vim test2.py
+   64  python3 test2.py
+   65  git checkout test2.py
+   66  cat test2.py
+   67  git log
+   68  vim test.py
+   69  git add .
+   70  git status -s
+   71  git checkout test.py
+   72  git status -s
+   73  git reset
+   74  git status -s
+   75  git checkout test.py
+   76  cat > test.py
+   77  git status -s
+   78  git add .
+   79  git status -s
+   80  git reset
+   81  git status -s
+   82  git checkout test.py
+   83  cat test.py
+   84  cat > test.py
+   85  git status -s
+   86  git add .
+   87  git status -s
+   88  git reset --hard
+   89  git status -s
+   90  ls
+   91  cat test.py
+   92  git log
+   93  git status
+   94  git branch
+   95  .code
+   96  code .
+   97  git config --global list
+   98  git config --global --list
+   99  cd /tmp/
+  100  mkdir dittis2
+  101  cd dittis2
+  102  code .
+  103  git init
+  104  ls -la
+  105  git status -s
+  106  git add .
+  107  git status -s
+  108  git commit -m 'first commit'
+  109  git status -s
+  110  git log
+  111  git log --decorate --oneline
+  112  git log --decorate --oneline --graph
+  113  git status -s
+  114  git log --decorate --oneline --graph
+  115  git add .
+  116  git commit -m 'second commit'
+  117  git log
+  118  git branch b1
+  119  git branch
+  120  git log --decorate --oneline --graph
+  121  git status
+  122  git checkout b1
+  123  git status
+  124  git status
+  125  git status -s
+  126  git add .
+  127  git commit -m 'page b1 commit'
+  128  git status -s
+  129  git log
+  130  git status
+  131  git status -s
+  132  git add .
+  133  git status -s
+  134  git commit -m 'new page b1 commit' 
+  135  git status
+  136  git log
+  137  git checkout master
+  138  git status
+  139  git status -s
+  140  git add .
+  141  git status -s
+  142  git commit -m 'new page main commit' 
+  143* 
+  144  git log
+  145  git checkout b1
+  146  git branch
+  147  git log --decorate --oneline --graph
+  148  git checkout master
+  149  git status
+  150  git merge b1
+  151  git log
+  152  git log --decorate --oneline --graph
+  153  git status -s
+  154  git log --decorate --oneline --graph
+  155  git add .
+  156  git status -s
+  157  git log --decorate --oneline --graph
+  158  git commit -m 'new page main1 commit' 
+  159  git checkout b1
+  160  git add .
+  161  git commit -m 'new b1 commit file1'
+  162  git commit -m 'new page main1 commit' 
+  163  git log --decorate --oneline --graph
+  164  git checkout master
+  165  git merge b1
+  166  git log --decorate --oneline --graph
+  167  git checkout -b b2
+  168  git status
+  169  git branch
+  170  git log --decorate --oneline --graph
+  171  git add .
+  172  git commit -m 'new b2 commit'
+  173  git log --decorate --oneline --graph
+  174  git checkout master
+  175  git merge b2
+  176  git log --decorate --oneline --graph
+  177  git status -s
+  178  git add .
+  179  git commit -m 'new main1'
+  180  git log --decorate --oneline --graph
+  181  git checkout b2
+  182  git log --decorate --oneline --graph
+  183  git checkout master
+  184  git merge b2
+  185  git log --decorate --oneline --graph
+  186  git checkout  a3b1af7
+  187  git checkout  3df0e9d
+  188  git log --decorate --oneline --graph
+  189  git checkout master
+  190  git log --decorate --oneline --graph
+  191  git checkout   061e2af
+  192  git log --decorate --oneline --graph
+  193  git checkout -b b3
+  194  git log --decorate --oneline --graph
+  195  git checkout master
+  196  git branch -d b1
+  197  git log --decorate --oneline --graph
+  198  git branch -d b3
+  199  git log --decorate --oneline --graph
+  200  git checkout  3df0e9d 
+  201  git checkout -b b1
+  202  git log --decorate --oneline --graph
+  203  git checkout master
+  204  git log --decorate --oneline --graph
+  205  ls -ls
+  206  cd .git
+  207  ls -l
+  208  cd HEAD
+  209  cat HEAD
+  210  cd ..
+  211  cd ..
+  212  cd dittis2
+  213  vim .git/HEAD
+  214  git remote -v
+  215  git checkout master
+  216  git remote -v
+  217  git remote add origin https://github.com/samaikhya/my-test-repository.git
+  218  git remote -v
+  219  git push origin master
+  220  git push origin masterhitgit git log
+  221  git log
+  222  rm dittis2
+  223  cd ..
+  224  rm dittis2
+  225  rmdir -R dittis2
+  226  rmdir dittis2
+  227  rmdir dittis2
+  228  rmdir -r dittis2
+  229  rmdir -R dittis2
+  230  rmdir dittis2 --force
+  231  ls
+  232  cd my-test-repository
+  233  cd ..
+  234  rm /tmp/dittis2
+  235  rmdir /tmp/dittis2
+  236  mkdir /tmp/dittis3/
+  237  cd /tmp/dittis3
+  238  git clone https://github.com/pythoncpp/my-test-project.git
+  239  ls -l
+  240  cd my-test-project
+  241  code .
+  242  git status -s
+  243  git add .
+  244  git commit -m newsam.py
+  245  git push
+  246  cd ...
+  247  cd ..
+  248  cd ..
+  249  cd ..
+  250  cd /tmp/dittis3/
+  251  git remote -v
+  252  cd ..
+  253  cd dittis2
+  254  git remote -v
+  255  git remote remove origin
+  256  git remote -v
+  257  git remote add origin https://gitlab.com/69728_samaikhyaenumula/my-test-project.git
+  258  git remote -v
+  259  code .
+  260  git status -s
+  261  git add .
+  262  git commit -m 'new commit project'
+  263  git log
+  264  git push origin push
+  265  git push origin master
+  266  history > nov29.txt
